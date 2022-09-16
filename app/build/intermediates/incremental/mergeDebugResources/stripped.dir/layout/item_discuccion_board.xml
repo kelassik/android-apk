@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/orange">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:id="@+id/rel4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/itemdiscircleimage_view"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/pixabay"
+                android:background="@android:color/transparent"/>
+
+            <TextView
+                android:id="@+id/txnamaitemdis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/itemdiscircleimage_view"
+                android:text="Sample Nama"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txjamitem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txnamaitemdis"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/itemdiscircleimage_view"
+                android:text="9 Hours"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txitempost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemdiscircleimage_view"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="POST "
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imgitemdis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txitempost"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/pixabay" />
+
+            <ImageButton
+                android:id="@+id/imgbutitemdis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgitemdis"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="1dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_baseline_comment" />
+
+            <TextView
+                android:id="@+id/tx_comment_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgbutitemdis"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="14dp"
+                android:layout_marginBottom="8dp"
+                android:text="34"
+                android:textColor="@color/blacklight"
+                android:textSize="12sp" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

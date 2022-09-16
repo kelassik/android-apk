@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvitemassigteachercomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="#F2F2F2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/complete_student2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/pixabay" />
+
+            <TextView
+                android:id="@+id/namastudentcomplete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/complete_student2"
+                android:fontFamily="@font/opensans"
+                android:text="John D"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txlessoncomplete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namastudentcomplete"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toRightOf="@+id/complete_student2"
+                android:fontFamily="@font/opensans"
+                android:text="Statistika"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txclasscomplete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txlessoncomplete"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toRightOf="@+id/complete_student2"
+                android:fontFamily="@font/opensans"
+                android:text="XII-4"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btncompleteassigtecher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/bg_ongoing_assig"
+                    android:text="Task Review"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btncompleteassigtechercorection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_ongoing_assig"
+                    android:text=" Task Correction "
+                    android:textColor="#FFFFFF"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Classroom</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Menu</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="join_school_btn">Join School</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_class">Class</string>
+    <string name="menu_chat">Chat</string>
+    <string name="otp_desc">memastikan nomor anda benar \nmohon masukkan kode OTP yang sudah \ndikirimkan ke anda</string>
+</resources>

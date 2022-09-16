@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfilClassFragment"
+    android:background="@color/orange">
+
+    <RelativeLayout
+        android:id="@+id/viewpagepclss"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        android:background="@color/white">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpclass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/viewpagepclss">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp">
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/relvp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="310dp"-->
+<!--                android:background="@drawable/bg_card_white">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tx_event"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="10dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_marginEnd="10dp"-->
+<!--                    android:layout_marginBottom="10dp"-->
+<!--                    android:text="EVENT"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="18sp" />-->
+
+<!--                <androidx.viewpager.widget.ViewPager-->
+<!--                    android:id="@+id/vpclass2"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/tx_event"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:layout_marginBottom="8dp"-->
+<!--                    tools:ignore="SpeakableTextPresentCheck" />-->
+
+<!--            </RelativeLayout>-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:elevation="8dp"
+                app:cardCornerRadius="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/desert_sand">
+
+                    <TextView
+                        android:id="@+id/tv_event"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Event"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/vpclass2"
+                        android:layout_width="match_parent"
+                        android:layout_height="340dp"
+                        android:padding="8dp"
+                        android:clipToPadding="false"
+                        android:paddingEnd="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tv_event"
+                        tools:listitem="@layout/item_vp_event" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/txrv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select your class"
+                android:textColor="@color/white"
+                android:layout_below="@id/cv_event"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcclass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/txrv1"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

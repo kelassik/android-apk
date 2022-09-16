@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.ActivityDetailComment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_commnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/rltop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tb_commnt"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/img_profil_commnt"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/pixabay" />
+
+        <TextView
+            android:id="@+id/tx_nama_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME PROFILE"
+            android:layout_toRightOf="@id/img_profil_commnt"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/tx_time_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 Hour"
+            android:layout_toRightOf="@id/img_profil_commnt"
+            android:layout_below="@id/tx_nama_comment"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlMidle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rltop">
+
+        <TextView
+            android:id="@+id/tx_title_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textStyle="bold"
+            android:text="TITLE" />
+
+        <TextView
+            android:id="@+id/tx_text_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx_title_comment"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="POST COMMENT TEXTS" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlMidle"
+        android:layout_above="@id/rlBottom"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rlBottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp">
+
+        <EditText
+            android:id="@+id/et_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@id/btn_post_comment"
+            android:background="@drawable/bg_corner_radius"
+            android:hint="Type some here"
+            android:minHeight="48dp"
+            android:padding="5dp" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_post_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/bg_card_btn_dis"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:padding="2dp"
+            android:src="@drawable/ic_baseline_send" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvitemtask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="@color/bluelight">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/txitemtask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task History"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:id="@+id/imgitemtask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_calendar"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/txitemtask"/>
+
+            <TextView
+                android:id="@+id/txitemtask2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 Agustus"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/imgitemtask"
+                android:layout_below="@id/txitemtask"/>
+
+            <ImageView
+                android:id="@+id/imgitemtask2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_access_time"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/txitemtask"
+                android:layout_toRightOf="@id/txitemtask2"/>
+
+            <TextView
+                android:id="@+id/txitemtask3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txitemtask"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/imgitemtask2"
+                android:text="12-15 WIB"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/circleimage_view"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_baseline_close" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

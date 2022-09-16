@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ScheduleBoardActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/tbboard"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_corner_radius"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/txhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="Schedule"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/txhomehari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txhome"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="WED"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txhometgl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txhomehari"
+            android:layout_centerHorizontal="true"
+            android:text="10"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/tbboard"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/rel1"
+        android:background="@drawable/bg_corner_orange"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/txhometask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="Current Task"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txhometask1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txhometask"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Material"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txhometask2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txhometask1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Quiz"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txhometask3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txhometask2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Assigment"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rel2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_scedule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_corner_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rv_scedule">
+
+                <TextView
+                    android:id="@+id/tx_absent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Absent"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_toRightOf="@id/tx_absent"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_baseline_horizontal" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tx_absent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:padding="8dp"
+                android:background="@drawable/bg_corner_orange">
+
+                <TextView
+                    android:id="@+id/tx_teac"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Teacher :"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tx_teacher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/tx_teac"
+                    android:text="Sumartono"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_absent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/tx_teac"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

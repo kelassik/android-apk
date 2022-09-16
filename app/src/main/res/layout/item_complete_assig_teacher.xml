@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvitemassigteachercomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="#F2F2F2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/lessoncomplete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/opensans"
+                android:text="Statititska"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txcompetencetest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lessoncomplete"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/opensans"
+                android:text="Competence task 1"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btncompleteassigtecher"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bg_ongoing_assig"
+                android:text="Task Review"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

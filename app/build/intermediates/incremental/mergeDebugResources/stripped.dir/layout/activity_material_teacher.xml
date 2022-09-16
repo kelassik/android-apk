@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MaterialActivityTeacher"
+    android:background="@drawable/bg_corner_orange">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circularImageView2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/pixabay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tb_material" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Hello sir,"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/circularImageView2"
+        app:layout_constraintTop_toBottomOf="@+id/tb_material" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/ic_baseline_notifications"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tb_material" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kombinasitgl"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/tb_material" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_card_uploadmaterialteacher"
+        android:padding="8dp"
+        android:text="Upload \n Material"
+        android:textColor="@color/dark_blue"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recymaterialTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

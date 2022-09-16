@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.konexus.classroom.ui.auth.register.RegisterPhoneViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_register_back"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="16dp"
+            android:onClick="@{() -> viewModel.backOnClick()}"
+            android:src="@drawable/ic_arrow_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_register_phone_study"
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/img_study_login"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_register_phone_classroom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/mulish"
+            android:text="Register to \n E-Learning online Classroom"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textFontWeight="1000"
+            android:textSize="21sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_register_phone_study" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ti_register_phone_phone"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="Phone Number"
+            app:boxStrokeColor="@color/light_grey"
+            app:layout_constraintTop_toBottomOf="@id/tv_register_phone_classroom">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ti_register_phone_as"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="Register as"
+            app:boxStrokeColor="@color/light_grey"
+            app:layout_constraintTop_toBottomOf="@id/ti_register_phone_phone">
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_register_phone_submit"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/opensans"
+            android:text="Submit"
+            android:textAllCaps="false"
+            app:layout_constraintTop_toBottomOf="@id/ti_register_phone_as" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

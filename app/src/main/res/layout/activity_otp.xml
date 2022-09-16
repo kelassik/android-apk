@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewModel"
+            type="com.konexus.classroom.ui.auth.otp.OtpViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_otp_masukkan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/mulish"
+            android:text="Masukkan Kode OTP"
+            android:textColor="@color/black"
+            android:textFontWeight="800"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@id/tv_otp_desc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/tv_otp_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans"
+            android:text="memastikan nomor anda benar \nmohon masukkan kode OTP yang sudah \ndikirimkan ke anda"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@id/et_otp_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_otp_masukkan" />
+
+        <EditText
+            android:id="@+id/et_otp_1"
+            setInputTextBg="@{viewModel.editTextOtp1}"
+            setInputType="@{viewModel.loadingEnabled}"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:text="@={viewModel.editTextOtp1}"
+            app:layout_constraintBottom_toTopOf="@id/tv_otp_resend"
+            app:layout_constraintEnd_toStartOf="@id/et_otp_2"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_otp_desc" />
+
+        <EditText
+            android:id="@+id/et_otp_2"
+            setInputTextBg="@{viewModel.editTextOtp2}"
+            setInputType="@{viewModel.loadingEnabled}"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="8dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:text="@={viewModel.editTextOtp2}"
+            app:layout_constraintEnd_toStartOf="@id/et_otp_3"
+            app:layout_constraintStart_toEndOf="@id/et_otp_1"
+            app:layout_constraintTop_toBottomOf="@id/tv_otp_desc"
+            app:layout_constraintTop_toTopOf="@id/et_otp_1" />
+
+        <EditText
+            android:id="@+id/et_otp_3"
+            setInputTextBg="@{viewModel.editTextOtp3}"
+            setInputType="@{viewModel.loadingEnabled}"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="8dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:text="@={viewModel.editTextOtp3}"
+            app:layout_constraintEnd_toStartOf="@id/et_otp_4"
+            app:layout_constraintStart_toEndOf="@id/et_otp_2"
+            app:layout_constraintTop_toBottomOf="@id/tv_otp_desc"
+            app:layout_constraintTop_toTopOf="@id/et_otp_1" />
+
+        <EditText
+            android:id="@+id/et_otp_4"
+            setInputTextBg="@{viewModel.editTextOtp4}"
+            setInputType="@{viewModel.loadingEnabled}"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="8dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:text="@={viewModel.editTextOtp4}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/et_otp_3"
+            app:layout_constraintTop_toBottomOf="@id/tv_otp_desc"
+            app:layout_constraintTop_toTopOf="@id/et_otp_1" />
+
+        <TextView
+            android:id="@+id/tv_otp_resend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/opensans"
+            android:text="Kirim Ulang OTP"
+            android:textAllCaps="true"
+            android:textColor="@color/dark_blue"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@id/tv_otp_changenumber"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/et_otp_1" />
+
+        <TextView
+            android:id="@+id/tv_otp_changenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/opensans"
+            android:text="Nomor Ganti ?"
+            android:textAllCaps="true"
+            android:textColor="@color/dark_blue"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@id/pb_otp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_otp_resend" />
+
+        <ProgressBar
+            android:id="@+id/pb_otp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:visibility="@{viewModel.loadingEnabled ? View.VISIBLE : View.GONE}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_otp_changenumber" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.UploadMateriActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbuploadmateri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/linmateri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:layout_below="@id/tbuploadmateri"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tx_judulmateri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Subject"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/edsubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx_judulmateri"
+            android:background="@drawable/bg_corner_radius"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+
+    <!--    <androidx.recyclerview.widget.RecyclerView-->
+    <!--        android:id="@+id/vpdialogmateri"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:layout_below="@id/linmateri"/>-->
+
+        <LinearLayout
+            android:id="@+id/reldialogmateri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:layout_below="@id/linmateri">
+
+            <TextView
+                android:id="@+id/txkelasmateri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reldialogmateri"
+                android:text="Kelas"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/edKelas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tx_judulmateri"
+                android:background="@drawable/bg_corner_radius"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtypemateri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reldialogmateri"
+        android:text="Upload"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"/>
+
+    <RelativeLayout
+        android:id="@+id/lintypemateri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/txtypemateri"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp">
+
+        <ImageButton
+            android:id="@+id/imgcameramateri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/camera" />
+
+        <ImageButton
+            android:id="@+id/imgfileword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_insert_drive_file"
+            android:layout_toRightOf="@id/imgcameramateri"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <ImageButton
+            android:id="@+id/imgfilepdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_picture_as_pdf"
+            android:layout_toRightOf="@id/imgfileword"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/imggalerymateri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/imgfilepdf"
+            android:src="@drawable/ic_baseline_image_dialog" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgresultmateri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lintypemateri"
+        android:layout_above="@id/btnsubmitmateri"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/edresultmateri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnsubmitmateri"
+        android:layout_below="@id/lintypemateri"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnsubmitmateri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_card_blue"
+        android:text="Submit"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

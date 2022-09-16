@@ -1,0 +1,1090 @@
+[
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_zoom_out.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/zoom_out.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_img_3.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/img_3.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_material_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_material_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_home_notifications.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_home_notifications.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_insert_drive_file.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_insert_drive_file.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_horizontal.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_horizontal.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_festivalmusic.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/festivalmusic.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_rv_materi_upload.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_rv_materi_upload.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_add_circle.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_add_circle.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/font_roboto_regular.ttf.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/font/roboto_regular.ttf"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_scedule.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_scedule.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_tak_list2.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_tak_list2.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_ongoing_assigment_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_ongoing_assigment_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_register_email.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_register_email.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_line_horizontal_white.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/line_horizontal_white.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_sport.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/sport.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_edit_sekolah.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/edit_sekolah.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_sman1_sleman.jpg.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/sman1_sleman.jpg"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_event.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_event.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_side_nav_bar.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_textinput_otp_filled.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_textinput_otp_filled.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_send.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_send.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_img_4.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/img_4.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_icreg.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/icreg.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_barcode_qr.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/barcode_qr.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_likediscussteacher.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/likediscussteacher.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_imgdiscussteacher.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/imgdiscussteacher.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_baseline_camera.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/baseline_camera.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/anim_slide_left_exit.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/anim/slide_left_exit.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_textinput_otp_empty.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_textinput_otp_empty.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_bar_task_list2.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/bar_task_list2.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_qr_code_scanner_24.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_qr_code_scanner_24.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_material.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_material.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_ongoing_assig.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_ongoing_assig.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_no_image.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/no_image.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_img.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/img.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_fronttoga.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/fronttoga.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_likenotif.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/likenotif.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_bar_teacher_assigment.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/bar_teacher_assigment.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_absent.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_absent.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/anim_slide_right_exit.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/anim/slide_right_exit.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_btn_radius.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_btn_radius.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_profile.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_bar_discussion_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/bar_discussion_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_image.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_image.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_corner_radius.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_corner_radius.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_task_list.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_task_list.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_medical.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_medical.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_textinput_login.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_textinput_login.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_rcview_class.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_rcview_class.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_fragment_profile.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_access_time.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_access_time.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_notif_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_notif_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_schedule_board.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_schedule_board.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_sechedule_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_sechedule_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_img_2.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/img_2.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_teacher_absent.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_teacher_absent.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_toga.jpg.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/toga.jpg"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_sd.jpg.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/sd.jpg"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_card_discuss_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_card_discuss_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_smp.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/smp.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_barcode_line.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/barcode_line.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_textview_home.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_textview_home.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_close.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_close.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_filter.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_filter.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_submain_home.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_submain_home.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_card_white.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_card_white.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_kodebatang1.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/kodebatang1.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_donut.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_donut.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_image_dialog.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_image_dialog.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_download.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_download.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_app_bar.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/app_bar.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_card_btn_dis.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_card_btn_dis.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_filterassig.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/filterassig.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_fragment_home.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_codebatang.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/codebatang.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_rc_discuss_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_rc_discuss_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/font_mulish_variable.ttf.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/font/mulish_variable.ttf"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_statistikalesson.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/statistikalesson.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_camera.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_camera.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_bar_discussion_teacher2.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/bar_discussion_teacher2.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_complete_assig_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_complete_assig_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_comment.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_comment.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_clas.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_clas.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_mage.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/mage.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_task_history.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_task_history.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_even2.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/even2.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_switch_login_active.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_switch_login_active.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_bar_notif_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/bar_notif_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_rc_event.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_rc_event.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_menu_chat.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_menu_chat.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_school.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/school.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_english.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/english.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ongoingassig.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ongoingassig.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_kodebatang.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/kodebatang.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_sharediscussteacher.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/sharediscussteacher.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/menu_nav_menu.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/menu/nav_menu.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_hari_scedule.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_hari_scedule.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_alert_dialog_pick_file.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/alert_dialog_pick_file.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_massagenotif.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/massagenotif.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_material.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_material.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_assigment_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_assigment_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_sma.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/sma.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/anim_slide_left_enter.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/anim/slide_left_enter.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_noimage_img.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-xxhdpi/noimage_img.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_computer.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/computer.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_statistika.jpg.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/statistika.jpg"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_barcode.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/barcode.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_soal.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/soal.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_img_1.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/img_1.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_fragment_profil_class.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/fragment_profil_class.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_discussion_board.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_discussion_board.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_completeassig.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/completeassig.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_arrow_back.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_notif_new.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_notif_new.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_close.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_close.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_register_phone.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_register_phone.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_discuccion_board.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_discuccion_board.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_menu_class.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_menu_class.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_notifications.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_notifications.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_women2.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/women2.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/navigation_auth_navigation.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/navigation/auth_navigation.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_fisik.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/fisik.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_material.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_material.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_share.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_share.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_art.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/art.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/font_opensans_variablefont.ttf.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/font/opensans_variablefont.ttf"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_switch_login.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_switch_login.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_task_list.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_task_list.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_teacher_schedule.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_teacher_schedule.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_detail_comment.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_detail_comment.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_complete_assig_teacher2.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_complete_assig_teacher2.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/font_mulish_italic.ttf.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/font/mulish_italic.ttf"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_chat.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_chat.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_register_list.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_register_list.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_upload_materi.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_upload_materi.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_bar_complete_assig_teacher3.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/bar_complete_assig_teacher3.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_otp.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_otp.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_vp_event.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_vp_event.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_img_study_login.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/img_study_login.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/navigation_mobile_navigation.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_sosial.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/sosial.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_even.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/even.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_close.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/close.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_login.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_attachfile.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/attachfile.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_notification.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_notification.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_calendar.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_calendar.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_complete_assig.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_complete_assig.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_even3.jpg.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/even3.jpg"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_fact_check.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_fact_check.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_discuss_teacher3.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_discuss_teacher3.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_auth.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_auth.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_vp_class2.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_vp_class2.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-hdpi_noimage_img.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-hdpi/noimage_img.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_page_barcode.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/page_barcode.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_bar_complete_assig_teacher4.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/bar_complete_assig_teacher4.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_sains.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/sains.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/menu_home.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/menu/home.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_more.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/more.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_women.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/women.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_noimage_img.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-xxxhdpi/noimage_img.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_rc_discuss_teacher2.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_rc_discuss_teacher2.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_zoom_in.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/zoom_in.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_barcode2.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/barcode2.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_math.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/math.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_religius.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/religius.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/font_opensans_regular.ttf.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/font/opensans_regular.ttf"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_barcode_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_barcode_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_home.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_home.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_assigment_ongoing.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_assigment_ongoing.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_vp_class.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_vp_class.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_complete_assig_teacher4.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_complete_assig_teacher4.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_dotassig.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/dotassig.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bahasa.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bahasa.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_clock.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/clock.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_card_green.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_card_green.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_hari_teacher_schedule.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_hari_teacher_schedule.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_card_uploadmaterialteacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_card_uploadmaterialteacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_complete_assig_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_complete_assig_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_view_material.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_view_material.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/font_roboto_bold.ttf.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/font/roboto_bold.ttf"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_camera.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/camera.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_kombinasitgl.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/kombinasitgl.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_bar_assig_inprogress.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/bar_assig_inprogress.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_bar_complete_assig_teacher2.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/bar_complete_assig_teacher2.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_recycleview_task.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_recycleview_task.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_dialog_upload_materi.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/dialog_upload_materi.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_corner_orange.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_corner_orange.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_horizontal_rwhite.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_horizontal_rwhite.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_discuss_teacher2.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_discuss_teacher2.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_even4.jpg.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/even4.jpg"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_men.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/men.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_fragment_classmenu.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/fragment_classmenu.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_line_cross.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_line_cross.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_rcview_home.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_rcview_home.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_verification.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/verification.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_icmage.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/icmage.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/anim_slide_right_enter.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/anim/slide_right_enter.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/font_opensans.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/font/opensans.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_fragment_chat.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_men3.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/men3.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/font_opensans_italic.ttf.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/font/opensans_italic.ttf"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_card_btn_assign_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_card_btn_assign_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_class.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_class.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_event2.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_event2.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_complete_assig_teacher2.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_complete_assig_teacher2.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_inprogress_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_inprogress_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_photo_camera.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/photo_camera.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_searchassig.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/searchassig.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_outline_add_location.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_outline_add_location.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_discussgrup.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/discussgrup.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_music.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/music.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_grupdiscuss.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/grupdiscuss.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_alert_dialog_join.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/alert_dialog_join.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_history.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/history.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_tune.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_tune.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_detail_comment_activity.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/detail_comment_activity.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_task_list2.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_task_list2.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_sekolah.jpg.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/sekolah.jpg"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_shape_line_login.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/shape_line_login.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_complete_assig_teacher4.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_complete_assig_teacher4.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_done.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_done.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_men2.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/men2.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-mdpi_noimage_img.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-mdpi/noimage_img.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-xhdpi_noimage_img.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-xhdpi/noimage_img.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_task_student.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_task_student.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_rv_sub_material.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_rv_sub_material.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_rv_material.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_rv_material.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_item_submaterial.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/item_submaterial.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_commentdiscussteacher.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/commentdiscussteacher.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_menu_profile.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_menu_profile.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_corner_line.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_corner_line.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_card_blue.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_card_blue.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_bar_ongoing_assigment_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/bar_ongoing_assigment_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_inprogressassig.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/inprogressassig.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_menu_home.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_menu_home.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_card_orange_home.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_card_orange_home.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_main_home.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_main_home.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/font_mulish.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/font/mulish.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_backspace.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/backspace.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_barcode.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_barcode.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/font_opensans_bold.ttf.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/font/opensans_bold.ttf"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_sains2.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/sains2.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_eye.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/eye.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/menu_activity_main_drawer.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_discuss_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_discuss_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_complete_assig_teacher3.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_complete_assig_teacher3.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_nav_header.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/nav_header.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_background_scan_qr.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/background_scan_qr.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_pixabay.jpg.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/pixabay.jpg"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_bg_notif_old.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/bg_notif_old.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/drawable_ic_baseline_picture_as_pdf.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/drawable/ic_baseline_picture_as_pdf.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_menu_home.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/menu_home.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_activity_assigment.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_assigment.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_bar_complete_assig_teacher.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/bar_complete_assig_teacher.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/layout_bar_task_list.xml.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/bar_task_list.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    }
+]

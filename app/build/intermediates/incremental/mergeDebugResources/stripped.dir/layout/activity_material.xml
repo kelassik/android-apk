@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MaterialActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        app:layout_constraintTop_toBottomOf="@+id/tb_material"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/txmateri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello,"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="8dp" />
+
+        <TextView
+            android:id="@+id/txmateri1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kevin Ryan"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_below="@id/txmateri"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/imgmateri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_notifications"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"/>
+
+        <ImageView
+            android:id="@+id/imgmateri1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_calendar"
+            android:layout_toLeftOf="@id/imgmateri"
+            android:layout_marginRight="8dp"/>
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/activdiscircleimage_view"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/pixabay"
+            android:layout_below="@id/txmateri1"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="8dp"/>
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/activdiscircleimage_view1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/pixabay"
+            android:layout_below="@id/txmateri1"
+            android:layout_toRightOf="@id/activdiscircleimage_view"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="24dp"/>
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/activdiscircleimage_view2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/pixabay"
+            android:layout_below="@id/txmateri1"
+            android:layout_toRightOf="@id/activdiscircleimage_view1"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="-16dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recymateri"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/activdiscircleimage_view"
+            android:layout_marginTop="16dp" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

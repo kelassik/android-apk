@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1019264633743-2s184ee4h3p473t4lo0cmpf4lvshihaa.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1019264633743</string>
+    <string name="google_api_key" translatable="false">AIzaSyCw_ZISW_W9xarphbIwBsYKR5_XxCVV8eM</string>
+    <string name="google_app_id" translatable="false">1:1019264633743:android:08a721f43d1f42968ad9fa</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCw_ZISW_W9xarphbIwBsYKR5_XxCVV8eM</string>
+    <string name="google_storage_bucket" translatable="false">classroom-2f982.appspot.com</string>
+    <string name="project_id" translatable="false">classroom-2f982</string>
+</resources>

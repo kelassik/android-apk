@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activityassigteacher">
+
+    <include
+        android:id="@+id/tb_assig_teacher"
+        layout="@layout/bar_teacher_assigment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/relmateriteacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tb_assig_teacher"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/edsearchteacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@id/imgfilter"
+            android:background="@drawable/bg_corner_radius"
+            android:textSize="26sp" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/imgfilter"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/filterassig" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scassigteacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relmateriteacher">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <RelativeLayout
+                android:id="@+id/ongoing"
+                android:layout_width="160dp"
+                android:layout_height="180dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/ongoingassig"
+                app:cardBackgroundColor="#f6f7dd"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="On Going"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/inprogress"
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/ongoing"
+                android:background="@drawable/inprogressassig"
+                app:cardBackgroundColor="#f6f7dd"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="8dp"
+                    android:text="In Progress"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/waiting"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                android:layout_below="@id/ongoing"
+                android:layout_marginTop="8dp"
+                app:cardBackgroundColor="#2f80ed"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Upload\n  Task"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:id="@+id/complete"
+                android:layout_width="170dp"
+                android:layout_height="180dp"
+                android:layout_below="@id/inprogress"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@id/ongoing"
+                android:background="@drawable/completeassig"
+                app:cardBackgroundColor="#f6f7dd"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:text="Task Complete"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txtaskstudent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit Assigment"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto_bold"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_below="@id/complete"
+                android:layout_marginTop="16dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rctaskstudent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtaskstudent"
+                android:layout_marginTop="16dp" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

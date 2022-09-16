@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_discuss_teacher"
+    android:layout_margin="8dp"
+    android:background="@drawable/bg_card_discuss_teacher">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/itemdiscuss_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/men3" />
+
+    <TextView
+        android:id="@+id/nameuserdiscuss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/itemdiscuss_img"
+        android:text="Kevin Ryan"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/timeuserdiscuss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9 Hours"
+        android:fontFamily="@font/opensans"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:layout_toRightOf="@id/itemdiscuss_img"
+        android:layout_below="@id/nameuserdiscuss"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/juduluserdiscuss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemdiscuss_img"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Lorem Ipsum"
+        android:textColor="#333333"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/isiuserdiscuss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/juduluserdiscuss"
+        android:layout_marginLeft="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non
+        \npellentesque turpis quam cursus. Purus diam amet non odio
+        \nac. Cras egestas bibendum cursus varius tempus iaculis eget
+        \narcu nulla. Ornare euismod facilisi arcu id feugiat lacinia eleifend." />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_discuss_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isiuserdiscuss"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="8dp">
+
+        <ImageView
+            android:id="@+id/imgdiscusteacher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/imgdiscussteacher"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/likediscusteacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/likediscussteacher"
+        android:layout_below="@id/card_discuss_teacher"
+        android:layout_toLeftOf="@id/commentdiscusteacher"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <ImageView
+        android:id="@+id/commentdiscusteacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_discuss_teacher"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toLeftOf="@id/sharediscusteacher"
+        android:src="@drawable/commentdiscussteacher" />
+
+    <ImageView
+        android:id="@+id/sharediscusteacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sharediscussteacher"
+        android:layout_below="@id/card_discuss_teacher"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/sumsharediscusteacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#A1B7C6"
+        android:textSize="10sp"
+        android:layout_below="@id/sharediscusteacher"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/sumcommentdiscusteacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="#A1B7C6"
+        android:textSize="10sp"
+        android:layout_below="@id/commentdiscusteacher"
+        android:layout_toLeftOf="@id/sharediscusteacher"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/sumlikediscusteacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15"
+        android:textColor="#A1B7C6"
+        android:textSize="10sp"
+        android:layout_below="@id/likediscusteacher"
+        android:layout_toLeftOf="@id/commentdiscusteacher"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"/>
+
+</RelativeLayout>

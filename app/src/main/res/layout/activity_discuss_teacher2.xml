@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:orientation="vertical"
+    tools:context=".activity.DiscussActivityTeacher2">
+
+    <include
+        android:id="@+id/tb_discussion_teacher2"
+        layout="@layout/bar_discussion_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/relposdiscuss2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6F7DD">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/user_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/men3" />
+
+        <EditText
+            android:id="@+id/eddiscussgrup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/user_img"
+            android:text="Write Something"
+            android:textSize="10sp"
+            android:layout_marginTop="8dp"
+            android:textColor="#E5E5E5"
+            android:padding="16dp"
+            android:layout_marginRight="8dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardcamera"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="8dp"
+            android:backgroundTint="#F6F7DD">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_camera"
+                android:layout_gravity="left"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camera"
+                android:layout_gravity="right"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardimage"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="24dp"
+            android:layout_toRightOf="@id/cardcamera"
+            android:backgroundTint="#F6F7DD"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/icmage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Images" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardtag"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/cardcamera"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#F6F7DD"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/icreg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Tag Someone" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardattac"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/cardcamera"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@id/cardtag"
+            android:backgroundTint="#F6F7DD"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/attachfile" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Attachment" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/orange"
+    android:id="@+id/rellyout_teacher">
+
+    <TextView
+        android:id="@+id/tx_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:text="1."/>
+
+    <TextView
+        android:id="@+id/tx_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/tx_no"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="NAMA SISWA"/>
+
+    <ImageView
+        android:id="@+id/img_absent_teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/no_image"/>
+
+    <ImageView
+        android:id="@+id/img_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tx_no"
+        android:scaleType="center"
+        android:src="@drawable/ic_baseline_horizontal_rwhite" />
+
+</RelativeLayout>

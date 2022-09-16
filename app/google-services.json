@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1019264633743",
+    "project_id": "classroom-2f982",
+    "storage_bucket": "classroom-2f982.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019264633743:android:08a721f43d1f42968ad9fa",
+        "android_client_info": {
+          "package_name": "com.konexus.classroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019264633743-2s184ee4h3p473t4lo0cmpf4lvshihaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw_ZISW_W9xarphbIwBsYKR5_XxCVV8eM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019264633743-2s184ee4h3p473t4lo0cmpf4lvshihaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

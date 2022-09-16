@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvitemtaskstudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="@color/brownlight">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/circleimage_view_student"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/pixabay" />
+
+            <TextView
+                android:id="@+id/namastudent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John D"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/circleimage_view_student"
+                android:layout_marginLeft="16dp"/>
+
+            <TextView
+                android:id="@+id/txmateritask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Statistika"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_below="@id/namastudent"
+                android:layout_toRightOf="@id/circleimage_view_student"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/txcomptask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task Complete"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_below="@id/txmateritask"
+                android:layout_toRightOf="@id/circleimage_view_student"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task Review"
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:background="@drawable/bg_card_blue"
+                android:padding="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

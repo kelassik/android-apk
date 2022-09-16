@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_corner_orange"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txMajor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Major"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Classes"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/reldialoghome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card_white"
+            android:layout_margin="8dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_menu_assi"
+                android:hint="Assigment"
+                android:padding="16dp"
+                android:textSize="18sp"
+                android:layout_margin="8dp"
+                android:textColorHint="@color/white"
+                android:background="@drawable/bg_card_green"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_menu_discus"
+                android:hint="Discussion Board"
+                android:padding="16dp"
+                android:textSize="18sp"
+                android:layout_margin="8dp"
+                android:textColorHint="@color/white"
+                android:background="@drawable/bg_card_green"
+                android:layout_below="@id/btn_menu_assi"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_menu_material"
+                android:hint="Material"
+                android:padding="16dp"
+                android:textSize="18sp"
+                android:layout_margin="8dp"
+                android:textColorHint="@color/white"
+                android:background="@drawable/bg_card_green"
+                android:layout_below="@id/btn_menu_discus"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_tes_teacher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_menu_material"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_card_green"
+                android:hint="Tes Teacher"
+                android:padding="16dp"
+                android:textColorHint="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

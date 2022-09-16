@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card_white"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/txitemmateriteacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Teacher"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imgmaterialteacher"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/pixabay"
+        android:layout_toRightOf="@id/txitemmateriteacher"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="24dp"/>
+
+    <TextView
+        android:id="@+id/txitemmateriteacher1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txitemmateriteacher"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Statiska"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgitemmateri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txitemmateriteacher1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_baseline_access_time" />
+
+    <TextView
+        android:id="@+id/tglitemmateri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txitemmateriteacher1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_toRightOf="@id/imgitemmateri"
+        android:text="22/Aug/2021"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/imgitemAddteacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tglitemmateri"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/ic_baseline_add_circle" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_submaterialteacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tglitemmateri" />
+
+</RelativeLayout>

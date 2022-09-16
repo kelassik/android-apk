@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".activity.DiscussionBoardActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbdisboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/relitemdis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbdisboard"
+        android:background="@color/white">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/activdiscircleimage_view"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/pixabay" />
+
+        <EditText
+            android:id="@+id/edtext1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@id/activdiscircleimage_view"
+            android:background="@drawable/bg_corner_radius"
+            android:hint="Write Something"
+            android:overScrollMode="always"
+            android:padding="8dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:scrollHorizontally="false" />
+
+        <ImageView
+            android:id="@+id/imgresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/upitemdis"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <ImageView
+            android:id="@+id/imgcamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtext1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_baseline_camera" />
+
+        <ImageView
+            android:id="@+id/imggalery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtext1"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@id/imgcamera"
+            android:src="@drawable/ic_baseline_image" />
+
+        <ImageView
+            android:id="@+id/imgmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtext1"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@id/imggalery"
+            android:src="@drawable/ic_outline_add_location" />
+
+        <ImageView
+            android:id="@+id/imgfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtext1"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@id/imgmap"
+            android:src="@drawable/ic_baseline_insert_drive_file" />
+
+        <Button
+            android:id="@+id/upitemdis"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_below="@id/edtext1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bg_card_btn_dis"
+            android:hint="Share"
+            android:textColorHint="@color/white"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_itemdis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relitemdis"
+        android:paddingTop="15dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

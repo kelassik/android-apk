@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/linNotifmsg"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/relimgnotif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/imgnotif"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/women" />
+
+        <ImageView
+            android:id="@+id/notifm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/massagenotif"
+            android:layout_toRightOf="@id/imgnotif"
+            android:layout_below="@id/imgnotif"
+            android:layout_marginTop="-16dp"
+            android:layout_marginLeft="-8dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/relimgnotif">
+
+        <TextView
+            android:id="@+id/namenotif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mulish"
+            android:text="Nina Hadid"
+            android:textColor="#333333"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/txmsgnotif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/namenotif"
+            android:layout_marginLeft="8dp"
+            android:text="Lorem ipsum dolor sit amet,"/>
+
+        <TextView
+            android:id="@+id/txmsgnotif1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/namenotif"
+            android:text="Lorem ipsum dolor sit amet, consectetur "/>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

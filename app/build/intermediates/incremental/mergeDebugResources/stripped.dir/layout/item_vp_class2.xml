@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_class2"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginVertical="16dp"
+    android:layout_marginStart="16dp"
+    app:cardCornerRadius="16dp"
+    android:layout_margin="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/imgvpclass2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/sman1_sleman"
+            android:layout_margin="8dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+<!--<RelativeLayout-->
+<!--    android:id="@+id/card_class2"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_margin="8dp"-->
+<!--    android:padding="8dp"-->
+<!--    android:background="@drawable/bg_card_white">-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imgvpclass2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:src="@drawable/no_image"/>-->
+
+<!--</RelativeLayout>-->

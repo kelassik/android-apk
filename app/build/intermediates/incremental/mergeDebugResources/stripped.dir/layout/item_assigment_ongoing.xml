@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvitemassigteacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="#F2F2F2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/ongoing_student"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/pixabay" />
+
+            <TextView
+                android:id="@+id/namastudentongoing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John D"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/ongoing_student"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/txlesson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit task now"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_below="@id/namastudentongoing"
+                android:layout_toRightOf="@id/ongoing_student"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bg_ongoing_assig"
+                android:text="On going 00.00.00"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

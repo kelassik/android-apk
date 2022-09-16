@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_otp.xml",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_otp.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_register_list.xml",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_register_list.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_register_phone.xml",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_register_phone.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_register_email.xml",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_register_email.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/yopabagus/Desktop/Classroom/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_auth.xml",
+        "source": "/Users/yopabagus/Desktop/Classroom/app/src/main/res/layout/activity_auth.xml"
+    }
+]

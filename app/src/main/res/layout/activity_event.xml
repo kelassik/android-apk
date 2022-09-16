@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:id="@+id/rel_event"
+    tools:context=".activity.EventActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/ed_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tb_event"
+        android:hint="Search"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_card_white"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/tx_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/ed_event"/>
+
+    <ImageView
+        android:id="@+id/img_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tx_event"
+        android:layout_below="@id/ed_event"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:scaleType="center"
+        android:src="@drawable/line_horizontal_white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/img_event">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/img_event"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rc_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_event"/>
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/vp_event"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:background="@color/white"/>
+
+            <RelativeLayout
+                android:id="@+id/rel_event2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tx_event3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Annoucment"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"/>
+
+                <ImageView
+                    android:id="@+id/img_event2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tx_event3"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:scaleType="center"
+                    android:src="@drawable/line_horizontal_white" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hi, Kevin Ryan, \n\n Lorep Ipsum Lorem Ipsum Lorep Ipsum
+                            \n\n Lorep Ipsum Lorep Ipsum Lorep Ipsum"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_card_white"
+                android:layout_margin="8dp"
+                android:padding="2dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

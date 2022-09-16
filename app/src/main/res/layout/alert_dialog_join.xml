@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_corner_radius">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join School"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/edclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_corner_radius"
+        android:hint="Enter Your Name"
+        android:padding="8dp"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/edclass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_corner_radius"
+        android:hint="Enter Classroom ID"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColorHint="@color/black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cancelkelas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Cancel"
+            android:textColorHint="@color/black"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/joinclass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/cancelkelas"
+            android:hint="Join"
+            android:textColorHint="@color/black" />
+
+    </RelativeLayout>
+
+</LinearLayout>
